@@ -29,9 +29,9 @@ export default function NoticeBoard() {
   ];
 
   return (
-    //<div className="w-full bg-gradient-to-r from-[#f0faff] to-white py-14"></div>
-    <div className="w-full bg-[#f0fff4] to-white py-14">
-      <div className="max-w-5xl mx-auto px-6">
+    <div className="w-full bg-[#f0fff4] py-14">
+      {/* Main container with max-width 1400px */}
+      <div className="max-w-[1400px] mx-auto px-6">
         {/* Section Heading */}
         <div className="flex items-center justify-center gap-2 mb-10">
           <Megaphone className="w-7 h-7 text-green-600" />

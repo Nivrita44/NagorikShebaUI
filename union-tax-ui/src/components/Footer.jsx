@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-green-100 border-t border-green-200">
       {/* Main Section */}
-      <div className="max-w-7xl px-10 md:px-12 lg:px-20 py-12 mx-14 grid grid-cols-1 md:grid-cols-5 gap-24 text-sm text-green-900">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 py-12 grid grid-cols-1 md:grid-cols-5 gap-12 md:gap-16 lg:gap-24 text-sm text-green-900">
         {/* Useful Links 1 */}
         <div>
           <h3 className="font-semibold text-green-900 mb-3">
