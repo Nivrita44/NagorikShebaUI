@@ -4,3 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: solaiman;
+    src: url("../src/assets/fonts/SolaimanLipi.woff2");
+}
+@theme {
+    --font-solaiman : solaiman, "sans-serif";
+}

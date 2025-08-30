@@ -29,33 +29,33 @@ export default function NoticeBoard() {
   ];
 
   return (
-    <div className="w-full bg-[#f0fff4] py-14">
+    <div className="w-full bg-[#F2F2F7] py-14">
       {/* Main container with max-width 1400px */}
       <div className="max-w-[1400px] mx-auto px-6">
         {/* Section Heading */}
         <div className="flex items-center justify-center gap-2 mb-10">
-          <Megaphone className="w-7 h-7 text-green-600" />
-          <h2 className="text-3xl font-extrabold text-green-700">
+          <Megaphone className="w-7 h-7 text-[#3B38A0]" />
+          <h2 className="text-3xl font-extrabold text-[#1A2A80] ">
             নোটিশ বোর্ড
           </h2>
         </div>
 
         {/* Notice List */}
-        <div className="bg-white rounded-2xl shadow-lg border border-green-100 divide-y">
+        <div className="bg-white rounded-2xl shadow-lg border border-[#B2B0E8] divide-y">
           {notices.map((notice) => (
             <a
               key={notice.id}
               href={notice.link}
-              className="flex items-center justify-between px-6 py-4 hover:bg-green-50 transition group"
+              className="flex items-center justify-between px-6 py-4 hover:bg-[#7A85C1]/10 transition group"
             >
               <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-green-600 rounded-full group-hover:scale-125 transition"></div>
-                <span className="text-gray-800 font-medium group-hover:text-green-700">
+                <div className="w-2 h-2 bg-[#3B38A0] rounded-full group-hover:scale-125 transition"></div>
+                <span className="text-gray-800 font-medium group-hover:text-[#1A2A80]">
                   {notice.title}
                 </span>
               </div>
               <div className="flex items-center gap-1 text-gray-500 text-sm">
-                <Calendar className="w-4 h-4" />
+                <Calendar className="w-4 h-4 text-[#1A2A80]" />
                 {notice.date}
               </div>
             </a>
@@ -66,7 +66,7 @@ export default function NoticeBoard() {
         <div className="text-center mt-8">
           <a
             href="#"
-            className="inline-block bg-green-600 text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-green-700 hover:shadow-md transition"
+            className="inline-block bg-[#1A2A80] text-white px-8 py-3 rounded-full text-base font-solaiman font-semibold shadow hover:bg-[#3B38A0] hover:shadow-md transition"
           >
             সব নোটিশ দেখুন
           </a>
